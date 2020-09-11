@@ -1,41 +1,34 @@
 {
-    "name": "yiisoft/yii2-debug",
-    "description": "The debugger extension for the Yii framework",
+    "name": "ziiframework/debug",
+    "description": "zii debug",
     "keywords": [
-        "yii2",
-        "debug",
-        "debugger"
+        "zii",
+        "debug"
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-debug/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-debug"
+        "issues": "https://github.com/ziiframework/debug/issues",
+        "source": "https://github.com/ziiframework/debug"
     },
     "authors": [
         {
-            "name": "Qiang Xue",
-            "email": "qiang.xue@gmail.com"
-        },
-        {
-            "name": "Simon Karlen",
-            "email": "simi.albi@outlook.com"
+            "name": "Yii Team",
+            "email": "team@yiiframework.com",
+            "homepage": "http://www.yiiframework.com/team",
+            "role": "Founder and project lead"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.3",
         "ext-mbstring": "*",
-        "yiisoft/yii2": "~2.0.13",
+        "ziiframework/zii": "3.0.x-dev",
         "opis/closure": "^3.3"
     },
     "require-dev": {
-        "yiisoft/yii2-swiftmailer": "*",
-        "yiisoft/yii2-coding-standards": "~2.0",
-        "phpunit/phpunit": "<7"
+        "ziiframework/swiftmailer": "3.0.x-dev",
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
@@ -49,13 +42,13 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://asset-packagist.cn"
         }
     ]
 }
