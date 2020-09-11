@@ -1,8 +1,8 @@
 {
     "name": "ziiframework/debug",
-    "description": "zii debug",
+    "description": "zii-framework debug",
     "keywords": [
-        "zii",
+        "zii-framework",
         "debug"
     ],
     "type": "yii2-extension",
@@ -20,6 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.3",
         "ext-mbstring": "*",
