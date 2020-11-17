@@ -24,11 +24,11 @@
     "require": {
         "php": ">=7.3",
         "ext-mbstring": "*",
-        "ziiframework/zii": "3.0.x-dev",
+        "ziiframework/zii": "~3.1.1",
         "opis/closure": "^3.3"
     },
     "require-dev": {
-        "ziiframework/swiftmailer": "3.0.x-dev",
+        "ziiframework/swiftmailer": "~3.1.1",
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
@@ -43,7 +43,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "4.0.x-dev"
         }
     },
     "repositories": [
