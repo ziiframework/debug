@@ -146,8 +146,8 @@ HTML
 
     public function testDefaultVersion()
     {
-        Yii::$app->extensions['yiisoft/yii2-debug'] = [
-            'name' => 'yiisoft/yii2-debug',
+        Yii::$app->extensions['ziiframework/debug'] = [
+            'name' => 'ziiframework/debug',
             'version' => '2.0.7',
         ];
 
