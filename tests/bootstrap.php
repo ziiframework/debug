@@ -14,9 +14,7 @@ if (is_dir(__DIR__ . '/../vendor/')) {
     $vendorRoot = __DIR__ . '/../../..'; //this extension is part of a project vendor folder
 }
 require_once($vendorRoot . '/autoload.php');
-require_once($vendorRoot . '/yiisoft/yii2/Yii.php');
+require_once($vendorRoot . '/ziiframework/zii/src/Yii.php');
 
 Yii::setAlias('@yiiunit/debug', __DIR__);
 Yii::setAlias('@yii/debug', dirname(__DIR__) . '/src');
-
-require_once(__DIR__ . '/compatibility.php');

@@ -11,7 +11,7 @@ use Opis\Closure;
  */
 class FlattenExceptionTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         ini_set('zend.exception_ignore_args', false);
     }

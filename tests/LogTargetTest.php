@@ -20,7 +20,7 @@ class LogTargetTest extends TestCase
         self::assertSame($_SERVER['REQUEST_TIME_FLOAT'], $data['time']);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->mockWebApplication();
