@@ -52,5 +52,13 @@
             "type": "composer",
             "url": "https://asset-packagist.cn"
         }
-    ]
+    ],
+    "scripts": {
+        "redo-install": [
+            "rm -rf vendor/",
+            "rm -f composer.lock",
+            "@composer self-update -vvv",
+            "@composer install -vvv"
+        ]
+    }
 }
