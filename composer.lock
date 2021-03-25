@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f77734a842b3011936e02940bc2cfaa9",
+    "content-hash": "8b94252e47b81e9eeff7f192cec08e0d",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -323,16 +323,16 @@
         },
         {
             "name": "ziiframework/zii",
-            "version": "3.1.1",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ziiframework/zii.git",
-                "reference": "d67faa6445cad25d4d1f2d59b4a8dd83755a3226"
+                "reference": "d322d2f1ca95ede685d6e457cacfaa8ef8a8f72b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ziiframework/zii/zipball/d67faa6445cad25d4d1f2d59b4a8dd83755a3226",
-                "reference": "d67faa6445cad25d4d1f2d59b4a8dd83755a3226",
+                "url": "https://api.github.com/repos/ziiframework/zii/zipball/d322d2f1ca95ede685d6e457cacfaa8ef8a8f72b",
+                "reference": "d322d2f1ca95ede685d6e457cacfaa8ef8a8f72b",
                 "shasum": ""
             },
             "require": {
@@ -350,7 +350,7 @@
                 "ziiframework/composer": "~3.1.1"
             },
             "require-dev": {
-                "cebe/indent": "~1.0.2",
+                "cebe/indent": "^1.0",
                 "cweagans/composer-patches": "^1.6",
                 "phpunit/phpunit": "^8.5"
             },
@@ -366,7 +366,10 @@
             "autoload": {
                 "psr-4": {
                     "yii\\": "src/"
-                }
+                },
+                "exclude-from-classmap": [
+                    "/tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -390,7 +393,7 @@
                 "issues": "https://github.com/ziiframework/zii/issues?state=open",
                 "source": "https://github.com/ziiframework/zii"
             },
-            "time": "2020-11-17T15:15:55+00:00"
+            "time": "2021-03-05T01:34:57+00:00"
         }
     ],
     "packages-dev": [
