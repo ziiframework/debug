@@ -15,7 +15,7 @@
         {
             "name": "Yii Team",
             "email": "team@yiiframework.com",
-            "homepage": "http://www.yiiframework.com/team",
+            "homepage": "https://www.yiiframework.com/team",
             "role": "Founder and project lead"
         }
     ],
@@ -24,11 +24,11 @@
     "require": {
         "php": ">=7.3",
         "ext-mbstring": "*",
-        "ziiframework/zii": "~3.1.1|~3.2.4",
+        "ziiframework/zii": ">=3.2.4",
         "opis/closure": "^3.3"
     },
     "require-dev": {
-        "ziiframework/swiftmailer": "~3.1.1|~3.2.1",
+        "ziiframework/swiftmailer": ">=3.2.1",
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
